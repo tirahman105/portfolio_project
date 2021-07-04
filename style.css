@@ -1,0 +1,57 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+h1{
+
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 1rem;
+}
+[class*="col-"]{
+	float: left;
+	padding: 10px;
+}
+/*for mobile*/
+[class*="col-"]{
+	width: 100%;
+}
+.navbar{
+	background-color: #425866;
+	padding: 1% 7%;
+	text-align: center; 
+}
+
+.navbar h1{
+	color: white;
+	margin: 0;
+	padding-top: 10px;
+}
+.navbar-menu{
+	display: flex;
+	flex-direction: column;
+	text-transform: uppercase;
+}
+.navbar-menu a{
+	background-color: #253542;
+	border-radius: 10px;
+	margin: 7px;
+	padding: 5px;
+}
+
+.navbar-menu a:hover{
+	background-color: #526F81;
+}
+.navbar::after{
+	content: '';
+	display: table;
+	clear: both;
+}
