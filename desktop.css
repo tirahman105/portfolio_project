@@ -49,3 +49,25 @@
 
 
 /*profile design ends*/
+
+
+/*about us design starts*/
+
+.about-us-img {
+	margin-top: 50px;
+}
+
+.about-us-img img{
+	height: 280px;
+	width: 280px;
+}
+
+.about-us-text{
+	text-align: left;
+}
+.contact-us-btn{
+	margin-left: 0px;
+
+}
+
+/*about us design ends*/

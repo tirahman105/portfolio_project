@@ -10,11 +10,21 @@ body{
 h1{
 
 }
-
+h2{
+	font-size: 1.2rem;
+	text-align: center;
+}
 a{
 	text-decoration: none;
 	color: white;
 	font-size: 1rem;
+}
+.underline-hr{
+	border: solid 4px white;
+	border-bottom: none;
+	margin: 10px auto;
+	width: 70px;
+
 }
 [class*="col-"]{
 	float: left;
@@ -68,7 +78,7 @@ a{
 /*profile design starts*/
 
 .profile{
-	padding: 130px 10px;
+	padding: 100px 10px 0px 10px;
 	position: relative;
 	text-align: center;
 }
@@ -98,3 +108,43 @@ a{
 	clear: both;
 }
 /*Profile design ends*/
+
+/*about us design starts here*/
+.about-us{
+	background-color:  #425866;
+	padding: 1% 7%;
+	color: white;
+	text-align: center;
+}
+.about-us-img img{
+	border-radius: 50%;
+	height: 220px;
+	width: 220px;
+}
+.about-us-text{
+	text-align: center;
+}
+.contact-us-btn{
+	background-color:  #253542;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	padding: 15px;
+	cursor: pointer;
+	margin: 10px;
+	font-size: 18px;
+
+}
+.contact-us-btn:hover{
+	background-color:  #526F81;
+	 transform: scale(1.1);
+	 transition: .3s;
+	
+	}
+.about-us::after{
+	clear: both;
+	display: table;
+	content: '';
+}
+
+/*about us design ends here*/
