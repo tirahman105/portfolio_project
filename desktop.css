@@ -22,7 +22,7 @@
 .navbar-menu{
 	flex-direction: row;
 	justify-content: flex-end;
-	margin-top: 5px;
+	margin-top: 15px;
 
 }
 .navbar-menu a{
@@ -30,3 +30,22 @@
 	border-radius: 0px;
 	background-color: transparent;
 }
+
+
+
+/*navbar design ends*/
+
+/*profile design starts*/
+
+.profile .top-icon{
+	position: absolute;
+	top: 5%;
+	left: 45%;
+	
+}
+.profile-desc p{
+	width: 60%;
+}
+
+
+/*profile design ends*/

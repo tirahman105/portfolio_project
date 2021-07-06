@@ -24,10 +24,17 @@ a{
 [class*="col-"]{
 	width: 100%;
 }
+
+
+/*navbar design starts here*/
+
 .navbar{
 	background-color: #425866;
-	padding: 1% 7%;
+	padding: 0.5% 5%;
 	text-align: center; 
+}
+.nav-logo img{
+	border-radius: 50%
 }
 
 .navbar h1{
@@ -55,3 +62,39 @@ a{
 	display: table;
 	clear: both;
 }
+
+/*navbar design ends here*/
+
+/*profile design starts*/
+
+.profile{
+	padding: 130px 10px;
+	position: relative;
+	text-align: center;
+}
+.profile .top-icon{
+	position: absolute;
+	top: 5%;
+	left: 40%;
+	transition: transform 1s;
+}
+.profile .top-icon:hover{
+	transform: rotate(45deg);
+}
+.profile-desc h1{
+	color:  #526F81;
+	text-align: center;
+}
+
+.profile-desc p{
+	color:  #526F81;
+	width: 90%;
+	text-align: center;
+	margin: 0 auto 20px auto;
+}
+.profile::after{
+	content: '';
+	display: table;
+	clear: both;
+}
+/*Profile design ends*/
