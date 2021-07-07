@@ -128,11 +128,11 @@ a{
 	background-color:  #253542;
 	color: white;
 	border: none;
-	border-radius: 10px;
-	padding: 15px;
+	border-radius: 8px;
+	padding: 10px;
 	cursor: pointer;
 	margin: 10px;
-	font-size: 18px;
+	font-size: 16px;
 
 }
 .contact-us-btn:hover{
@@ -148,3 +148,88 @@ a{
 }
 
 /*about us design ends here*/
+
+/*our service design starts here*/
+
+.service-container{
+	padding: 1% 8%;
+	text-align: center;
+}
+.service-container .card{
+	background-color: #DBEAF2;
+	border-radius: 5px;
+	padding: 10px;
+	transition: .3s;
+	height: 300px;
+}
+
+.card:hover{
+	box-shadow: 0 4px 8px 5px #C6CED0;
+
+}
+
+.card-icon img{
+	margin-top: 10px;
+	height: 100px;
+	width: 100px;
+}
+
+.card-title{
+	background-color: #253542;
+	color: white;
+	padding: 6px 0px;
+}
+
+.service-container::after{
+	clear: both;
+	display: table;
+	content: '';
+}
+/*our service design ends here*/
+
+
+/*contact us design starts here*/
+
+#contact-us-id{
+	padding: 1% 7%;
+	background-color: #425866;
+	color: white;
+	text-align: center;
+}
+
+.contact-us input, textarea{
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	font-size: 1rem;
+	border-radius: 5px;
+	border: none;
+	resize: none;
+
+}
+.more-way-contact{
+	text-align: center;
+}
+.social-icon{
+	text-align: center;
+	padding: 50px 20px;
+}
+
+.btn{
+	border: none;
+	padding: 10px 20px;
+	font-size: 2rem;
+	border-radius: 5px;
+	margin: 10px;
+}
+.btn:hover{
+	transform: scale(1.1);
+}
+#contact-us-id::after{
+	clear: both;
+	display: table;
+	content: '';
+}
+
+
+/*contact us design ends here*/
