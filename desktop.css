@@ -84,3 +84,13 @@
 
 
 /*contact us design ends here*/
+
+/*footer design starts here*/
+/*.footer-menu{
+	margin-top: 12px;
+}*/
+.footer-menu a{
+	display: inline;
+	padding: 10px;
+}
+/*footer design ends here*/

@@ -42,16 +42,20 @@ a{
 	background-color: #425866;
 	padding: 0.5% 5%;
 	text-align: center; 
+
 }
-.nav-logo img{
+/*.nav-logo img{
 	border-radius: 50%
-}
+}*/
 
 .navbar h1{
 	color: white;
 	margin: 0;
-	padding-top: 10px;
+	padding-top: 28px;
+	font-size: 30px;
+
 }
+
 .navbar-menu{
 	display: flex;
 	flex-direction: column;
@@ -65,7 +69,7 @@ a{
 }
 
 .navbar-menu a:hover{
-	background-color: #526F81;
+	background-color: #F59C48;
 }
 .navbar::after{
 	content: '';
@@ -81,6 +85,8 @@ a{
 	padding: 100px 10px 0px 10px;
 	position: relative;
 	text-align: center;
+	background-image: url(images/bg.jpg);
+	background-size: cover;
 }
 .profile .top-icon{
 	position: absolute;
@@ -92,12 +98,14 @@ a{
 	transform: rotate(45deg);
 }
 .profile-desc h1{
-	color:  #526F81;
+	/*color:  #526F81;*/
+	color: white;
 	text-align: center;
 }
 
 .profile-desc p{
-	color:  #526F81;
+	/*color:  #526F81;*/
+	color: white;
 	width: 90%;
 	text-align: center;
 	margin: 0 auto 20px auto;
@@ -233,3 +241,26 @@ a{
 
 
 /*contact us design ends here*/
+
+/*footer design starts here*/
+.footer{
+	background-color: black;
+	color: white;
+	font-size: .8rem;
+	text-align: center;
+	padding: 20px;
+}
+.footer-menu a{
+	display: block;
+	margin: 15px 0px;
+	font-size: 1rem;
+}
+.footer-menu a:hover{
+	color: gray;
+}
+.footer::after{
+	clear: both;
+	display: table;
+	content: '';
+}
+/*footer design ends here*/
